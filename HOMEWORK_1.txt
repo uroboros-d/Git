@@ -1,0 +1,4 @@
+HOMEWORK_1 (GitHub)
+
+Create an external JSON repository
+git clone https://github.com/uroboros-d/JSON.git      Clone the JSON repository to the local machine
