@@ -1,0 +1,23 @@
+
+cd Branches                                 Create branches in a local repository
+git branch Postman
+git branch Jmeter
+git branch CheckLists
+git branch Bug_Reports
+git branch SQL
+git branch Charles
+git branch Mobile_testing
+git push origin --all                       Push all branches to GitHub
+git checkout Bug_Reports                    Create a text document with a bug report structure in the Bug_Reports branch
+vim bug_report.txt                      
+git add .                                   Push bug_report.txt to GitHub
+git commit -m "create bug_report.txt"
+push origin Bug_reports
+git checkout main                           Merge the Bug_reports branch into the main branch
+git merge Bug_reports
+git add                                     Push the main branch to GitHub
+git commit -m "Push main branch to GitHub"
+git push
+git checkout CheckLists                     Create a text document with a check list structure in the CheckLists branch                                           
+vim check_list.txt                                            
+                                            Do Pull Request of the CheckLists branch into the main branch on GitHub
