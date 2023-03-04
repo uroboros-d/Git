@@ -1,22 +1,22 @@
 HOMEWORK_1 (GitHub)
 
-                                                      Create an external JSON repository
+                                                      Create a remote JSON repository
 git clone https://github.com/uroboros-d/JSON.git      Clone the JSON repository to the local machine
 touch new.json                                        Create new.json
 git add new.json                                      Add new.json under GIT
-git commit  -m "new.json is created"                  Commit new.json
-git push                                              Push the file to the external repository
+git commit  -m "create new.json"                      Commit new.json
+git push                                              Push the file to the remote repository
 vim new.json                                          Add info about yourself (name, surname, age, number of pets, salary) in JSON format to new.json
-git commit -am "new.json is filled with info"         Push changes to the external repository
+git commit -am "fill new.json with info"              Push changes to the remote repository
 git push
 > preferences.json                                    Create preferences.json
 cat >> preferences.json                               Add info about your preferences (movie, series, food, season, country) in JSON format to preferences.json
-vim skills.json                                       Create skills.json and fill in with info about skills studied in the course
-add .                                                 Send two files to the external repository
-commit -m "preferences.json and skills.json are created and filled with info"
+vim skills.json                                       Create skills.json and fill with info about skills studied in the course
+add .                                                 Send two files to the remote repository
+commit -m "Create and fill preferences.json and skills.json with info"
 git push
-                                                      Create bug_report.json in the external repository
-                                                      Make Commit changes in the external repository
-                                                      Modify bug_report.json in the external repository
-                                                      Make Commit changes in the external repository
-git pull                                              Syncronize external and local JSON repositories
+                                                      Create bug_report.json in the remote repository
+                                                      Make Commit changes in the remote repository
+                                                      Modify bug_report.json in the remote repository
+                                                      Make Commit changes in the remote repository
+git pull                                              Syncronize remote and local JSON repositories
