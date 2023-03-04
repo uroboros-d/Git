@@ -21,3 +21,5 @@ git push
 git checkout CheckLists                     Create a text document with a check list structure in the CheckLists branch                                           
 vim check_list.txt                                            
                                             Do Pull Request of the CheckLists branch into the main branch on GitHub
+git checkout main                           Synchronize remote and local main branches
+git pull
