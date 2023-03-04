@@ -18,7 +18,7 @@ git merge Bug_reports
 git add .                                       Push the main branch to GitHub
 git commit -m "Push the main branch to GitHub"
 git push
-git checkout CheckLists                         Create a text document with a check list structure in the CheckLists branch                                           
+git checkout CheckLists                         Create a text document with a checklist structure in the CheckLists branch                                           
 vim check_list.txt                                            
                                                 Do Pull Request of the CheckLists branch into the main branch on GitHub
 git checkout main                               Synchronize remote and local main branches
