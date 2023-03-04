@@ -12,7 +12,7 @@ git checkout Bug_Reports                    Create a text document with a bug re
 vim bug_report.txt                      
 git add .                                   Push bug_report.txt to GitHub
 git commit -m "create bug_report.txt"
-push origin Bug_reports
+git push origin Bug_reports
 git checkout main                           Merge the Bug_reports branch into the main branch
 git merge Bug_reports
 git add                                     Push the main branch to GitHub
