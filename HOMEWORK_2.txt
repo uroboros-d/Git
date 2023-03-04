@@ -11,15 +11,18 @@ git push origin --all                           Push all branches to GitHub
 git checkout Bug_Reports                        Create a text document with a bug report structure in the Bug_Reports branch
 vim bug_report.txt                      
 git add .                                       Push bug_report.txt to GitHub
-git commit -m "create bug_report.txt"
-git push origin Bug_reports
+git commit -m "create bug_report.txt with a bug report structure"
+git push -u origin Bug_reports
 git checkout main                               Merge the Bug_reports branch into the main branch
 git merge Bug_reports
 git add .                                       Push the main branch to GitHub
 git commit -m "Push the main branch to GitHub"
 git push
 git checkout CheckLists                         Create a text document with a checklist structure in the CheckLists branch                                           
-vim checklist.txt                                            
+vim checklist.txt
+git add .                                       Push checklist.txt to GitHub
+git commit -m "Create checklist.txt with a checklist structure"
+git push -u origin Checklist
                                                 Do Pull Request of the CheckLists branch into the main branch on GitHub
 git checkout main                               Synchronize remote and local main branches
 git pull
