@@ -15,7 +15,7 @@ git commit -m "create bug_report.txt"
 git push origin Bug_reports
 git checkout main                           Merge the Bug_reports branch into the main branch
 git merge Bug_reports
-git add                                     Push the main branch to GitHub
+git add .                                   Push the main branch to GitHub
 git commit -m "Push main branch to GitHub"
 git push
 git checkout CheckLists                     Create a text document with a check list structure in the CheckLists branch                                           
