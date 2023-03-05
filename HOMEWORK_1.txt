@@ -23,3 +23,10 @@ git pull                                              Syncronize remote and loca
 
                                                       Create a remote XML repository
 git clone https://github.com/uroboros-d/XML.git       Clone the XML repository to a local machine
+touch new.xml                                         Create new.xml
+git add new.xml                                       Add new.xml under GIT
+git commit  -m "create new.xml"                       Commit new.xml
+git push                                              Push the file to GitHub
+vim new.xml                                           Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml
+git commit -am "fill new.json with info"              Push changes to GitHub
+git push
