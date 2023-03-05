@@ -28,5 +28,16 @@ git add new.xml                                       Add new.xml under GIT
 git commit  -m "create new.xml"                       Commit new.xml
 git push                                              Push the file to GitHub
 vim new.xml                                           Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml
-git commit -am "fill new.json with info"              Push changes to GitHub
+git commit -am "fill new.xml with info"               Push changes to GitHub
 git push
+> preferences.xml                                     Create preferences.xml
+cat >> preferences.xml                                Add info about your preferences (movie, series, food, season, country) in XML format to preferences.xml
+vim skills.xml                                        Create skills.xml and fill with info about skills studied in the course
+git add .                                             Send preferences.xml and skills.xml to GitHub
+git commit -m "Create and fill preferences.xml and skills.xml with info"
+git push
+                                                      Create bug_report.xml in GitHub
+                                                      Make Commit changes in GitHub
+                                                      Modify bug_report.xml in GitHub
+                                                      Make Commit changes in GitHub
+git pull                                              Syncronize remote and local XML repositories
