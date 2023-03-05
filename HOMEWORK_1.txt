@@ -1,22 +1,25 @@
 HOMEWORK_1 (GitHub)
 
                                                       Create a remote JSON repository
-git clone https://github.com/uroboros-d/JSON.git      Clone the JSON repository to the local machine
+git clone https://github.com/uroboros-d/JSON.git      Clone the JSON repository to a local machine
 touch new.json                                        Create new.json
 git add new.json                                      Add new.json under GIT
 git commit  -m "create new.json"                      Commit new.json
-git push                                              Push the file to the remote repository
+git push                                              Push the file to GitHub
 vim new.json                                          Add info about yourself (name, surname, age, number of pets, salary) in JSON format to new.json
-git commit -am "fill new.json with info"              Push changes to the remote repository
+git commit -am "fill new.json with info"              Push changes to GitHub
 git push
 > preferences.json                                    Create preferences.json
 cat >> preferences.json                               Add info about your preferences (movie, series, food, season, country) in JSON format to preferences.json
 vim skills.json                                       Create skills.json and fill with info about skills studied in the course
-add .                                                 Send two files to the remote repository
-commit -m "Create and fill preferences.json and skills.json with info"
+git add .                                             Send preferences.json and skills.json to GitHub
+git commit -m "Create and fill preferences.json and skills.json with info"
 git push
-                                                      Create bug_report.json in the remote repository
-                                                      Make Commit changes in the remote repository
-                                                      Modify bug_report.json in the remote repository
-                                                      Make Commit changes in the remote repository
+                                                      Create bug_report.json in GitHub
+                                                      Make Commit changes in GitHub
+                                                      Modify bug_report.json in GitHub
+                                                      Make Commit changes in GitHub
 git pull                                              Syncronize remote and local JSON repositories
+
+                                                      Create a remote XML repository
+git clone https://github.com/uroboros-d/XML.git       Clone the XML repository to a local machine
