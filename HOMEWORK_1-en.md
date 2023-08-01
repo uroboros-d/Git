@@ -17,13 +17,13 @@ HOMEWORK_1
 | `git add . `|                                            Send preferences.json and skills.json to GitHub |
 | `git commit -m "Create and fill preferences.json and skills.json with info"`|
 | `git push`| |
-|                                                      Create bug_report.json in GitHub |
-|                                                      Make Commit changes in GitHub |
- |                                                     Modify bug_report.json in GitHub |
-|                                                      Make Commit changes in GitHub |
+|                                                    |  Create bug_report.json in GitHub |
+|                                                    |  Make Commit changes in GitHub |
+ |                                                    | Modify bug_report.json in GitHub |
+|                                                    |  Make Commit changes in GitHub |
 | `git pull`|                                              Syncronize remote and local JSON repositories |
 | |
-|                                                      Create a remote XML repository |
+|                                                     | Create a remote XML repository |
 | `git clone https://github.com/uroboros-d/XML.git`|       Clone the XML repository to a local machine |
 | `touch new.xml`|                                         Create new.xml |
 | `git add new.xml `|                                      Add new.xml under GIT |
@@ -38,13 +38,13 @@ HOMEWORK_1
 | `git add . `|                                            Send preferences.xml and skills.xml to GitHub |
 | `git commit -m "Create and fill preferences.xml and skills.xml with info"`|
 | `git push`|
- |                                                     Create bug_report.xml in GitHub |
-|                                                      Make Commit changes in GitHub |
-|                                                      Modify bug_report.xml in GitHub |
-|                                                      Make Commit changes in GitHub |
+ |                                                   |  Create bug_report.xml in GitHub |
+|                                                    |  Make Commit changes in GitHub |
+|                                                    |  Modify bug_report.xml in GitHub |
+|                                                    |  Make Commit changes in GitHub |
 | `git pull `|                                             Syncronize remote and local XML repositories |
 | |
-|                                                      Create a remote TXT repository |
+|                                                   |   Create a remote TXT repository |
 | `git clone https://github.com/uroboros-d/TXT.git`|       Clone the TXT repository to a local machine |
 | `touch new.txt `|                                        Create new.txt |
 | `git add new.txt `|                                      Add new.txt under GIT |
@@ -59,8 +59,8 @@ HOMEWORK_1
 | `git add .   `|                                          Send preferences.txt and skills.txt to GitHub |
 | `git commit -m "Create and fill preferences.txt and skills.txt with info"`|
 | `git push`|
- |                                                     Create bug_report.txt in GitHub |
-|                                                      Make Commit changes in GitHub |
-|                                                      Modify bug_report.txt in GitHub |
-|                                                      Make Commit changes in GitHub |
+ |                                                  |   Create bug_report.txt in GitHub |
+|                                                    |  Make Commit changes in GitHub |
+|                                                    |  Modify bug_report.txt in GitHub |
+|                                                   |   Make Commit changes in GitHub |
 | `git pull`|                                              Syncronize remote and local XML repositories |
