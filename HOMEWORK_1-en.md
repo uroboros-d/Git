@@ -5,7 +5,7 @@ HOMEWORK_1
 |                                                |      Create a remote JSON repository |
 | `git clone https://github.com/uroboros-d/JSON.git`|      Clone the JSON repository to a local machine |
 | `touch new.json  `|                                      Create new.json |
-| `git add new.json  `|                                    Add new.json under GIT |
+| `git add new.json  `|                                    Add new.json under Git |
 | `git commit  -m "create new.json"`|                      Commit new.json |
 | `git push  `|                                            Push the file to GitHub |
 | `vim new.json `|                                         Add info about yourself (name, surname, age, number of pets, salary) in JSON format to new.json |
@@ -26,7 +26,7 @@ HOMEWORK_1
 |                                                     | Create a remote XML repository |
 | `git clone https://github.com/uroboros-d/XML.git`|       Clone the XML repository to a local machine |
 | `touch new.xml`|                                         Create new.xml |
-| `git add new.xml `|                                      Add new.xml under GIT |
+| `git add new.xml `|                                      Add new.xml under Git |
 | `git commit  -m "create new.xml"`|                       Commit new.xml |
 | `git push `|                                             Push the file to GitHub |
 | `vim new.xml `|                                          Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml |
@@ -47,7 +47,7 @@ HOMEWORK_1
 |                                                   |   Create a remote TXT repository |
 | `git clone https://github.com/uroboros-d/TXT.git`|       Clone the TXT repository to a local machine |
 | `touch new.txt `|                                        Create new.txt |
-| `git add new.txt `|                                      Add new.txt under GIT |
+| `git add new.txt `|                                      Add new.txt under Git |
 | `git commit  -m "create new.txt"  `|                     Commit new.txt |
 | `git push `|                                             Push the file to GitHub |
 | `vim new.txt  `|                                         Add info about yourself (name, surname, age, number of pets, salary) in TXT format to new.txt |
