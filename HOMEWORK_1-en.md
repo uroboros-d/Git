@@ -17,7 +17,7 @@ HOMEWORK_1
 | `vim skills.json`|                                       Create skills.json and fill with info about skills studied in the course |
 | `git add . `|                                            Send preferences.json and skills.json to GitHub |
 | `git commit -m "Create and fill preferences.json and skills.json with info"`|
-| `git push`|
+| `git push`| |
 |                                                      Create bug_report.json in GitHub |
 |                                                      Make Commit changes in GitHub |
  |                                                     Modify bug_report.json in GitHub |
