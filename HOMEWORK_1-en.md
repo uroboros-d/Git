@@ -2,7 +2,7 @@ HOMEWORK_1
 
 | Command | Description |
 | --- | --- |
-|   ``                                             |      Create a remote JSON repository |
+|`                                                `|      Create a remote JSON repository |
 | `git clone https://github.com/uroboros-d/JSON.git`|      Clone the JSON repository to a local machine |
 | `touch new.json  `|                                      Create new.json |
 | `git add new.json  `|                                    Add new.json under GIT |
