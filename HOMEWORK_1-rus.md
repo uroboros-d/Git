@@ -27,21 +27,21 @@ HOMEWORK_2
 |||
 |                                                     | 21. Создать внешний репозиторий c названием XML |
 | `git clone https://github.com/uroboros-d/XML.git`|    22. Клонировать репозиторий XML на локальный компьютер |
-| `touch new.xml`|                                      23. Create new.xml |
-| `git add new.xml `|                                   24. Add new.xml under Git |
-| `git commit  -m "create new.xml"`|                    25. Commit new.xml |
-| `git push `|                                          26. Push the file to GitHub |
-| `vim new.xml `|                                       27. Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml |
-| `git commit -am "fill new.xml with info" `|           28. Push changes to GitHub |
+| `touch new.xml`|                                      23. Создать new.xml |
+| `git add new.xml `|                                   24. Добавить файл в индекс |
+| `git commit  -m "create new.xml"`|                    25. Закоммитить файл new.xml |
+| `git push `|                                          26. Отправить файл в удалённый репозиторий |
+| `vim new.xml `|                                       27. В new.xml написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML |
+| `git commit -am "fill new.xml with info" `|           28. Отправить изменения в удалённый репозиторий |
 | `git push`|
-| `> preferences.xml `|                                 29. Create preferences.xml |
-| `cat >> preferences.xml  `|                           30. Add info about your preferences (movie, series, food, season, country) in XML format to preferences.xml |
-| `vim skills.xml `|                                    31. Create skills.xml and fill with info about skills studied in the course |
-| `git add . `|                                         32. Send preferences.xml and skills.xml to GitHub |
+| `> preferences.xml `|                                 29. Создать файл preferences.xml |
+| `cat >> preferences.xml  `|                           30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML |
+| `vim skills.xml `|                                    31. Создать файл sklls.xml, добавить информацию о скиллах которые будут изучены на курсе в формате XML |
+| `git add . `|                                         32. Сделать коммит |
 | `git commit -m "Create and fill preferences.xml and skills.xml with info"`|
-| `git push`|
- |                                                   |  33. Create bug_report.xml in GitHub |
-|                                                    |  34. Make Commit changes in GitHub |
-|                                                    |  35. Modify bug_report.xml in GitHub |
-|                                                    |  36. Make Commit changes in GitHub |
-| `git pull `|                                          37. Syncronize remote and local XML repositories |
+| `git push`|                                           33. Отправить сразу 2 файла в удалённый репозиторий |
+ |                                                   |  34. Создать файл bug_report.xml в удалённом репозитории |
+|                                                    |  35. Сделать Commit changes (сохранить изменения) |
+|                                                    |  36. В удалённом репозитории модифицировать файл bug_report.xml, добавить баг репорт в формате XML |
+|                                                    |  37. Сделать Commit changes (сохранить изменения) |
+| `git pull `|                                          38. Синхронизировать удалённый и локальный репозитории XML |
