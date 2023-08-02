@@ -25,44 +25,23 @@ HOMEWORK_2
 | `git pull`|                                           20. Синхронизировать удалённый и локальный репозитории |
 | ||
 |||
-|                                                     | Create a remote XML repository |
-| `git clone https://github.com/uroboros-d/XML.git`|       Clone the XML repository to a local machine |
-| `touch new.xml`|                                         Create new.xml |
-| `git add new.xml `|                                      Add new.xml under Git |
-| `git commit  -m "create new.xml"`|                       Commit new.xml |
-| `git push `|                                             Push the file to GitHub |
-| `vim new.xml `|                                          Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml |
-| `git commit -am "fill new.xml with info" `|              Push changes to GitHub |
+|                                                     | 21. Создать внешний репозиторий c названием XML |
+| `git clone https://github.com/uroboros-d/XML.git`|    22. Клонировать репозиторий XML на локальный компьютер |
+| `touch new.xml`|                                      23. Create new.xml |
+| `git add new.xml `|                                   24. Add new.xml under Git |
+| `git commit  -m "create new.xml"`|                    25. Commit new.xml |
+| `git push `|                                          26. Push the file to GitHub |
+| `vim new.xml `|                                       27. Add info about yourself (name, surname, age, number of pets, salary) in XML format to new.xml |
+| `git commit -am "fill new.xml with info" `|           28. Push changes to GitHub |
 | `git push`|
-| `> preferences.xml `|                                    Create preferences.xml |
-| `cat >> preferences.xml  `|                              Add info about your preferences (movie, series, food, season, country) in XML format to preferences.xml |
-| `vim skills.xml `|                                       Create skills.xml and fill with info about skills studied in the course |
-| `git add . `|                                            Send preferences.xml and skills.xml to GitHub |
+| `> preferences.xml `|                                 29. Create preferences.xml |
+| `cat >> preferences.xml  `|                           30. Add info about your preferences (movie, series, food, season, country) in XML format to preferences.xml |
+| `vim skills.xml `|                                    31. Create skills.xml and fill with info about skills studied in the course |
+| `git add . `|                                         32. Send preferences.xml and skills.xml to GitHub |
 | `git commit -m "Create and fill preferences.xml and skills.xml with info"`|
 | `git push`|
- |                                                   |  Create bug_report.xml in GitHub |
-|                                                    |  Make Commit changes in GitHub |
-|                                                    |  Modify bug_report.xml in GitHub |
-|                                                    |  Make Commit changes in GitHub |
-| `git pull `|                                             Syncronize remote and local XML repositories |
-| |
-|                                                   |   Create a remote TXT repository |
-| `git clone https://github.com/uroboros-d/TXT.git`|       Clone the TXT repository to a local machine |
-| `touch new.txt `|                                        Create new.txt |
-| `git add new.txt `|                                      Add new.txt under Git |
-| `git commit  -m "create new.txt"  `|                     Commit new.txt |
-| `git push `|                                             Push the file to GitHub |
-| `vim new.txt  `|                                         Add info about yourself (name, surname, age, number of pets, salary) in TXT format to new.txt |
-| `git commit -am "fill new.xml with info" `|              Push changes to GitHub |
-| `git push`|
-| `> preferences.txt `|                                    Create preferences.txt |
-| `cat >> preferences.txt `|                               Add info about your preferences (movie, series, food, season, country) in TXT format to preferences.txt |
-| `vim skills.txt `|                                       Create skills.txt and fill with info about skills studied in the course |
-| `git add .   `|                                          Send preferences.txt and skills.txt to GitHub |
-| `git commit -m "Create and fill preferences.txt and skills.txt with info"`|
-| `git push`|
- |                                                  |   Create bug_report.txt in GitHub |
-|                                                    |  Make Commit changes in GitHub |
-|                                                    |  Modify bug_report.txt in GitHub |
-|                                                   |   Make Commit changes in GitHub |
-| `git pull`|                                              Syncronize remote and local XML repositories |
+ |                                                   |  33. Create bug_report.xml in GitHub |
+|                                                    |  34. Make Commit changes in GitHub |
+|                                                    |  35. Modify bug_report.xml in GitHub |
+|                                                    |  36. Make Commit changes in GitHub |
+| `git pull `|                                          37. Syncronize remote and local XML repositories |
