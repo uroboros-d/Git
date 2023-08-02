@@ -2,26 +2,27 @@ HOMEWORK_2
 
 | Command | Description |
 | --- | --- |
-|                                                |       Создать удалённый репозиторий c названием JSON |
-| `git clone https://github.com/uroboros-d/JSON.git`|       Клонировать репозиторий на локальный компьютер |
-| `touch new.json  `|                                       Создать файл new.json |
-| `git add new.json  `|                                    Добавить файл в индекс |
-| `git commit  -m "create new.json"`|                       Закоммитить файл new.json |
-| `git push  `|                                            Отправить файл в удалённый репозиторий |
-| `vim new.json `|                                         Внести в new.json информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON |
-| `git commit -am "fill new.json with info"`|              Отправить изменения в удалённый репозиторий |
+|                                                |       4. Создать удалённый репозиторий c названием JSON |
+| `git clone https://github.com/uroboros-d/JSON.git`|    5. Клонировать репозиторий на локальный компьютер |
+| `touch JSON/new.json  `|                               6. Создать файл new.json |
+| `cd JSON  `|                                    7. Добавить файл в индекс |
+| `git add new.json  `|
+| `git commit  -m "create new.json"`|                       8. Закоммитить файл new.json |
+| `git push  `|                                           9. Отправить файл в удалённый репозиторий |
+| `vim new.json `|                                        10. Внести в new.json информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON |
+| `git commit -am "fill new.json with info"`|             11. Отправить изменения в удалённый репозиторий |
 | `git push`||
-| `> preferences.json  `|                                  Создать файл preferences.json |
-| `cat >> preferences.json  `|                              Добавить в preferences.json информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON |
-| `vim skills.json`|                                       Создать файл sklls.json, добавить информацию о скиллах, которые будут изучены на курсе в формате JSON |
-| `git add . `|                                            Отправить сразу 2 файла в удалённый репозиторий |
+| `> preferences.json  `|                                 12. Создать файл preferences.json |
+| `cat >> preferences.json  `|                            13.  Добавить в preferences.json информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON |
+| `vim skills.json`|                                      14. Создать файл sklls.json, добавить информацию о скиллах, которые будут изучены на курсе в формате JSON |
+| `git add . `|                                          15. Отправить сразу 2 файла в удалённый репозиторий |
 | `git commit -m "Create and fill preferences.json and skills.json with info"`|
 | `git push`| |
-|                                                    |  Создать файл bug_report.json в удалённом репозитории|
-|                                                    |  Сделать Commit changes (сохранить изменения) |
- |                                                    | Модифицировать файл bug_report.json, добавить баг репорт в формате JSON |
-|                                                    |  Сделать Commit changes (сохранить изменения) |
-| `git pull`|                                              Синхронизировать удалённый и локальный репозитории |
+|                                                    | 16. Создать файл bug_report.json в удалённом репозитории|
+|                                                    | 17. Сделать Commit changes (сохранить изменения) |
+ |                                                    | 18. Модифицировать файл bug_report.json, добавить баг репорт в формате JSON |
+|                                                    | 19. Сделать Commit changes (сохранить изменения) |
+| `git pull`|                                           20. Синхронизировать удалённый и локальный репозитории |
 | ||
 |                                                     | Create a remote XML repository |
 | `git clone https://github.com/uroboros-d/XML.git`|       Clone the XML repository to a local machine |
