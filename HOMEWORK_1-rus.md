@@ -24,6 +24,7 @@ HOMEWORK_2
 |                                                    | 19. Сделать Commit changes (сохранить изменения) |
 | `git pull`|                                           20. Синхронизировать удалённый и локальный репозитории |
 | ||
+|||
 |                                                     | Create a remote XML repository |
 | `git clone https://github.com/uroboros-d/XML.git`|       Clone the XML repository to a local machine |
 | `touch new.xml`|                                         Create new.xml |
