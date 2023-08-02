@@ -35,10 +35,10 @@ HOMEWORK_2
 | `git commit -am "fill new.xml with info" `|           28. Отправить изменения в удалённый репозиторий |
 | `git push`|
 | `> preferences.xml `|                                 29. Создать файл preferences.xml |
-| `cat >> preferences.xml  `|                           30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML |
-| `vim skills.xml `|                                    31. Создать файл sklls.xml, добавить информацию о скиллах которые будут изучены на курсе в формате XML |
+| `vim preferences.xml  `|                              30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML |
+| `echo "<skill>Patience</skill>" > skills.xml `|       31. Создать файл sklls.xml, добавить информацию о скиллах которые будут изучены на курсе в формате XML |
 | `git add . `|                                         32. Сделать коммит |
-| `git commit -m "Create and fill preferences.xml and skills.xml with info"`|
+| `git commit -m "Add two files"`|
 | `git push`|                                           33. Отправить сразу 2 файла в удалённый репозиторий |
  |                                                   |  34. Создать файл bug_report.xml в удалённом репозитории |
 |                                                    |  35. Сделать Commit changes (сохранить изменения) |
