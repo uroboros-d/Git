@@ -13,8 +13,8 @@ HOMEWORK_2
 | `git commit -am "fill new.json with info"`|             11. Отправить изменения в удалённый репозиторий |
 | `git push`||
 | `> preferences.json  `|                                 12. Создать файл preferences.json |
-| `cat >> preferences.json  `|                            13.  Добавить в preferences.json информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON |
-| `vim skills.json`|                                      14. Создать файл sklls.json, добавить информацию о скиллах, которые будут изучены на курсе в формате JSON |
+| `vim preferences.json  `|                            13.  Добавить в preferences.json информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON |
+| `echo '{"How to google effectively": "In English"}' > skills.json`| 14. Создать файл sklls.json, добавить информацию о скиллах, которые будут изучены на курсе в формате JSON |
 | `git add . `|                                          15. Отправить сразу 2 файла в удалённый репозиторий |
 | `git commit -m "Create and fill preferences.json and skills.json with info"`|
 | `git push`| |
