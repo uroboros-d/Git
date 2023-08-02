@@ -1,7 +1,7 @@
 HOMEWORK_1
 
 | Command | Description |
-| --- | --- |
+| ---- | --- |
 |                                                |       4. Создать удалённый репозиторий c названием JSON |
 | `git clone https://github.com/uroboros-d/JSON.git`|    5. Клонировать репозиторий на локальный компьютер |
 | `touch JSON/new.json  `|                               6. Создать файл new.json |
