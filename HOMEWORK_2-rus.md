@@ -5,22 +5,22 @@ HOMEWORK_2
 |                                                |       4. Создать удалённый репозиторий c названием JSON |
 | `git clone https://github.com/uroboros-d/JSON.git`|    5. Клонировать репозиторий на локальный компьютер |
 
-| `cd Branches `|                                    Create branches in a local repository
-| `git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing `|
-| `git push origin --all `|                          Push all branches to GitHub
-| `git checkout Bug_Reports  `|                      Create a text document with a bug report structure in the Bug_Reports branch
-| `vim bug_report.txt  `|                    
-| `git add .  `|                                     Push bug_report.txt to GitHub
-| `git commit -m "bug report structure"`|
-| `git push -u origin Bug_reports`|
-| `git checkout main `|                              Merge the Bug_reports branch into the main branch
-| `git merge Bug_reports`|
-| `git push      `|                                  Push the main branch to GitHub
-| `git checkout CheckLists `|                        Create a text document with a checklist structure in the CheckLists branch                                           
-| `vim checklist.txt`|
-| `git add . `|                                      Push checklist.txt to GitHub
-| `git commit -m "checklist structure"`|
-| `git push -u origin Checklists`|
-| `   `|                                             Do Pull Request of the CheckLists branch into the main branch on GitHub
-| `git checkout main    `|                           Synchronize remote and local main branches
-| `git pull`|
+| `cd Branches `|                                    Create branches in a local repository |
+| `git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing `| |
+| `git push origin --all `|                          Push all branches to GitHub |
+| `git checkout Bug_Reports  `|                      Create a text document with a bug report structure in the Bug_Reports branch |
+| `vim bug_report.txt  `|                     |
+| `git add .  `|                                     Push bug_report.txt to GitHub |
+| `git commit -m "bug report structure"`| |
+| `git push -u origin Bug_reports`| |
+| `git checkout main `|                              Merge the Bug_reports branch into the main branch |
+| `git merge Bug_reports`| |
+| `git push      `|                                  Push the main branch to GitHub |
+| `git checkout CheckLists `|                        Create a text document with a checklist structure in the CheckLists branch    |                                        
+| `vim checklist.txt`| |
+| `git add . `|                                      Push checklist.txt to GitHub |
+| `git commit -m "checklist structure"`| |
+| `git push -u origin Checklists`| |
+| `   `|                                             Do Pull Request of the CheckLists branch into the main branch on GitHub |
+| `git checkout main    `|                           Synchronize remote and local main branches |
+| `git pull`| |
