@@ -9,7 +9,7 @@ HOMEWORK_2
 | `git add .  `|                                      4. Запушить структуру багрепорта в удаленный репозиторий |
 | `git commit -m "bug report structure"`| |
 | `git push -u origin Bug_reports`| |
-| `git checkout main `|                              5. Вмержить ветку Bag Reports в main |
+| `git checkout main `|                              5. Вмержить ветку Bug_Reports в main |
 | `git merge Bug_reports`| |
 | `git push      `|                                   6. Запушить main в удаленный репозиторий |
 | `git checkout CheckLists `|                        7. В ветке CheckLists набросать структуру чек листа    |                                        
