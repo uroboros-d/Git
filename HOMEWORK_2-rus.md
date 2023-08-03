@@ -18,5 +18,5 @@ HOMEWORK_2
 | `git commit -m "checklist structure"`| |
 | `git push -u origin Checklists`| |
 | `   `|                                             9. На внешнем репозитории сделать Pull Request ветки CheckLists в main |
-| `git checkout main    `|                           1. Синхронизировать удаленную и локальную ветки main |
+| `git checkout main    `|                           10. Синхронизировать удаленную и локальную ветки main |
 | `git pull`| |
