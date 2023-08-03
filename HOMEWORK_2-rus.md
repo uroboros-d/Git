@@ -2,8 +2,7 @@ HOMEWORK_2
 
 | Command | Description |
 | ---- | --- |
-| `cd Branches `|                                    Create branches in a local repository |
-| `git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing `| |
+|`git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing ` |                                    На локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing |
 | `git push origin --all `|                          Push all branches to GitHub |
 | `git checkout Bug_Reports  `|                      Create a text document with a bug report structure in the Bug_Reports branch |
 | `vim bug_report.txt  `|                     |
