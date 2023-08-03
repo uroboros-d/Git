@@ -2,9 +2,6 @@ HOMEWORK_2
 
 | Command | Description |
 | ---- | --- |
-|                                                |       4. Создать удалённый репозиторий c названием JSON |
-| `git clone https://github.com/uroboros-d/JSON.git`|    5. Клонировать репозиторий на локальный компьютер |
-
 | `cd Branches `|                                    Create branches in a local repository |
 | `git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing `| |
 | `git push origin --all `|                          Push all branches to GitHub |
