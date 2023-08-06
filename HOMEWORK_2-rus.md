@@ -17,7 +17,7 @@ HOMEWORK_2
 | `git push -u origin main     `|                                   6. Запушить main в удаленный репозиторий |
 | `git checkout CheckLists `|                        7. В ветке CheckLists набросать структуру чек листа    |                                        
 | `vim check_list.txt`| |
-| `git add . `|                                      8. Запушить структуру в удаленный репозиторий |
+| `git add check_list.txt `|                                      8. Запушить структуру в удаленный репозиторий |
 | `git commit -m "check_list.txt"`| |
 | `git push -u origin Checklists`| |
 | |                                             9. На внешнем репозитории сделать Pull Request ветки CheckLists в main |
