@@ -9,7 +9,7 @@ HOMEWORK_2
 | `git push origin --all `|                           2. Запушить все ветки в удаленный репозиторий |
 | `git checkout BugReports  `|                      3. В ветке BugReports сделать текстовый документ со структурой баг репорта |
 | `vim bug_report.txt  `|                     |
-| `git add .  `|                                      4. Запушить структуру багрепорта в удаленный репозиторий |
+| `git add bug_report.txt  `|                                      4. Запушить структуру багрепорта в удаленный репозиторий |
 | `git commit -m "bug report structure"`| |
 | `git push -u origin BugReports`| |
 | `git checkout main `|                              5. Вмержить ветку BugReports в main |
