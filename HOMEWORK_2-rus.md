@@ -10,15 +10,15 @@ HOMEWORK_2
 | `git checkout BugReports  `|                      3. В ветке BugReports сделать текстовый документ со структурой баг репорта |
 | `vim bug_report.txt  `|                     |
 | `git add bug_report.txt  `|                                      4. Запушить структуру багрепорта в удаленный репозиторий |
-| `git commit -m "bug report structure"`| |
+| `git commit -m "bug_report.txt"`| |
 | `git push -u origin BugReports`| |
 | `git checkout main `|                              5. Вмержить ветку BugReports в main |
 | `git merge BugReports`| |
 | `git push -u origin main     `|                                   6. Запушить main в удаленный репозиторий |
 | `git checkout CheckLists `|                        7. В ветке CheckLists набросать структуру чек листа    |                                        
-| `vim checklist.txt`| |
+| `vim check_list.txt`| |
 | `git add . `|                                      8. Запушить структуру в удаленный репозиторий |
-| `git commit -m "checklist structure"`| |
+| `git commit -m "check_list.txt"`| |
 | `git push -u origin Checklists`| |
 | |                                             9. На внешнем репозитории сделать Pull Request ветки CheckLists в main |
 | `git checkout main    `|                           10. Синхронизировать удаленную и локальную ветки main |
