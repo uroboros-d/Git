@@ -2,7 +2,7 @@ HOMEWORK_2
 
 | Command | Description |
 | ---- | --- |
-|`git clone https://github.com/uroboros-d/Branches.git`|1. В локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bug_Reports, SQL, Charles, Mobile_testing|
+|`git clone https://github.com/uroboros-d/Branches.git`|1. В локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, BugReports, SQL, Charles, MobileTesting|
 |`cd Branches`||
 |`git commit --allow-empty -m 'Initial commit'`|
 |`git branch Postman; git branch Jmeter; git branch CheckLists; git branch BugReports; git branch SQL; git branch Charles; git branch MobileTesting ` |                                     |
