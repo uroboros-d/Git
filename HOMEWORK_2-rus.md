@@ -14,7 +14,7 @@ HOMEWORK_2
 | `git push -u origin BugReports`| |
 | `git checkout main `|                              5. Вмержить ветку BugReports в main |
 | `git merge BugReports`| |
-| `git push origin main     `|                                   6. Запушить main в удаленный репозиторий |
+| `git push -u origin main     `|                                   6. Запушить main в удаленный репозиторий |
 | `git checkout CheckLists `|                        7. В ветке CheckLists набросать структуру чек листа    |                                        
 | `vim checklist.txt`| |
 | `git add . `|                                      8. Запушить структуру в удаленный репозиторий |
