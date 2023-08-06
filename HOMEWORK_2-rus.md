@@ -2,7 +2,10 @@ HOMEWORK_2
 
 | Command | Description |
 | ---- | --- |
-|`git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing ` |                                    1. В локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bug_Reports, SQL, Charles, Mobile_testing |
+|`git clone https`|1. В локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bug_Reports, SQL, Charles, Mobile_testing|
+|`cd Branches`||
+|`git commit --allow-empty -m 'Initial commit'`|
+|`git branch Postman; git branch Jmeter; git branch CheckLists; git branch Bug_Reports; git branch SQL; git branch Charles; git branch Mobile_testing ` |                                     |
 | `git push origin --all `|                           2. Запушить все ветки в удаленный репозиторий |
 | `git checkout Bug_Reports  `|                      3. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта |
 | `vim bug_report.txt  `|                     |
