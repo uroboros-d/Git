@@ -7,7 +7,7 @@ HOMEWORK_2
 |`git commit --allow-empty -m 'Initial commit'`|
 |`git branch Postman; git branch Jmeter; git branch CheckLists; git branch BugReports; git branch SQL; git branch Charles; git branch MobileTesting ` |                                     |
 | `git push origin --all `|                           2. Запушить все ветки в удаленный репозиторий |
-| `git checkout BugReports  `|                      3. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта |
+| `git checkout BugReports  `|                      3. В ветке BugReports сделать текстовый документ со структурой баг репорта |
 | `vim bug_report.txt  `|                     |
 | `git add .  `|                                      4. Запушить структуру багрепорта в удаленный репозиторий |
 | `git commit -m "bug report structure"`| |
